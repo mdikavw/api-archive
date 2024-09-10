@@ -1,0 +1,14 @@
+.login-container,
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.login-container form,
+.register-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

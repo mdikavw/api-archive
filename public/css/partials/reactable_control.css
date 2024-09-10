@@ -1,0 +1,26 @@
+.reactable-control-chip {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 8px;
+    background-color: var(--md-sys-color-secondary-container);
+    padding: 8px;
+    color: var(--md-sys-color-on-secondary-container);
+    font-size: 14px;
+    gap: 16px;
+}
+.reactable-control-btn {
+    border: none;
+    border-radius: 8px;
+    background: none;
+    padding: 4px 6px;
+    line-height: 0;
+    color: var(--md-text);
+    font-size: 16px;
+}
+.reactable-control-btn:hover {
+    background-color: var(--md-background);
+    cursor: pointer;
+}
+.reactable-comments h3 {
+    font-size: 20px;
+}

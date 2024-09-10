@@ -1,0 +1,90 @@
+@import url("variables.css");
+@import url(auth/auth.css);
+@import url(home/home.css);
+@import url(partials/navbar.css);
+@import url(partials/post.css);
+@import url(partials/comment_form.css);
+@import url(partials/reactable_control.css);
+@import url(partials/comment.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--md-sys-color-surface-bright);
+    color: var(--md-sys-color-on-surface);
+    font-family: "Fira Code", monospace;
+    padding: 32px 96px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--md-text);
+}
+
+p {
+    margin: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 8px 16px;
+    font-family: "Fira Code", monospace;
+    border: 1px solid var(--md-sys-color-outline);
+    border-radius: 8px;
+    background: none;
+    font-size: 16px;
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+input::placeholder {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+input:focus {
+    outline: none;
+    background: none;
+    color: var(--md-text);
+}
+
+button {
+    padding: 8px 16px;
+    font-family: "Fira Code", monospace;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.container {
+    padding: 64px 96px;
+}
+
+.right-bar-drawer-name {
+    font-size: 20px;
+}
+
+.right-bar-drawer-description {
+    font-size: 12px;
+    color: var(--md-dimmed);
+    border-bottom: 1px solid var(--md-dimmed);
+    margin-bottom: 4px;
+}
+
+.right-bar-drawer-stats span:first-of-type {
+    font-size: 20px;
+}
+
+.right-bar-drawer-stats span:last-of-type {
+    font-size: 12px;
+    color: var(--md-dimmed);
+}

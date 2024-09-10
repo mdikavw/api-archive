@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.nav-logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.nav-links {
+    flex-grow: 1;
+}
+
+.nav-links ul,
+.nav-menu ul {
+    margin: auto 0;
+    display: flex;
+    gap: 16px;
+}
+
+.nav-links li,
+.nav-menu li {
+    list-style: none;
+}
